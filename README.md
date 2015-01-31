@@ -4,6 +4,7 @@ Convert ukrainian chars to latin chars
 
 ![Alt ukrainian_latin](http://www.omniglot.com/images/writing/ukrainian_latin.gif)
 
+[Wiki Ukrainian-Latin alphabet](http://en.wikipedia.org/wiki/Ukrainian_Latin_alphabet)
 ## Installation
 
 Add this line to your application's Gemfile:
