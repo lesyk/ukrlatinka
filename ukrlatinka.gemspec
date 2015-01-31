@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ukrlatinka::VERSION
   spec.authors       = ["Mikhail Krainik"]
   spec.email         = ["avastor.developer@gmail.com"]
-  spec.description   = %q{Convert ukrainian word to latin chars}
-  spec.summary       = %q{Convert ukrainian word to latin chars}
+  spec.description   = %q{Convert ukrainian chars to latin chars}
+  spec.summary       = %q{Convert ukrainian chars to latin chars}
   spec.homepage      = "https://github.com/avastor/ukrlatinka"
   spec.license       = "MIT"
 
