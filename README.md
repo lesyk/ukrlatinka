@@ -1,4 +1,4 @@
-# Ukrlatinka
+# European-Ukrainian Latynka
 
 Convert ukrainian chars to latin chars
 
