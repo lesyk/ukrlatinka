@@ -22,4 +22,10 @@ describe UkLat do
     result = @uklat.convert lat, :lat_uk
     result.must_equal uk
   end
+
+  it 'text is ukrainian latinka?' do
+    text = 'Test latynkoü'
+    result = @uklat.latinka? text
+    result.must_be :==, true
+  end
 end

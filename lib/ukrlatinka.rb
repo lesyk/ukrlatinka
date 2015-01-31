@@ -56,7 +56,7 @@ module Ukrlatinka
     'в' => 'v',
     'г' => 'h',
     'ґ' => 'g',
-    'дь' => 'd\'',
+    'дь'=> 'd\'',
     'д' => 'd',
     'е' => 'e',
     'є' => 'ë',
@@ -67,18 +67,18 @@ module Ukrlatinka
     'ї' => 'ji',
     'й' => 'j',
     'к' => 'k',
-    'ль' => 'l\'',
+    'ль'=> 'l\'',
     'л' => 'l',
     'м' => 'm',
     'нь'=> 'ń',
     'н' => 'n',
     'о' => 'o',
     'п' => 'p',
-    'рь' => 'ŕ',
+    'рь'=> 'ŕ',
     'р' => 'r',
-    'сь' => 'ś',
+    'сь'=> 'ś',
     'с' => 's',
-    'ть' => 't\'',
+    'ть'=> 't\'',
     'т' => 't',
     'у' => 'u',
     'ф' => 'f',
@@ -108,5 +108,10 @@ module Ukrlatinka
     end
 
     str
+  end
+
+  def latinka?(str)
+    alfabet = {}.merge(DOWNCHAR).merge(UPCHAR).values.join('|')
+    !str.index(Regexp.new(alfabet)).nil?
   end
 end

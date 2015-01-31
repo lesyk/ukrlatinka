@@ -2,6 +2,8 @@
 
 Convert ukrainian chars to latin chars
 
+![Alt ukrainian_latin](http://www.omniglot.com/images/writing/ukrainian_latin.gif)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -29,3 +31,5 @@ Or install it yourself as:
 
     lat_text = 'Тekst ukrajinśkoü movoü'
     klass.convert lat_text, :lat_uk  # => "Текст українською мовою"
+
+    klass.latinka? lat_text  # => true
