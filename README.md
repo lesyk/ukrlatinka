@@ -9,7 +9,7 @@ Convert ukrainian chars to latin chars
 
 Add this line to your application's Gemfile:
 
-    gem 'ukrlatinka'
+    gem 'ukrlatynka'
 
 And then execute:
 
@@ -17,12 +17,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ukrlatinka
+    $ gem install ukrlatynka
 
 ## Usage
 
     class AnyKlass
-      include Ukrlatinka
+      include Ukrlatynka
     end
 
     klass = AnyKlass.new
